@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6350)  (format=lualatex 2018.11.21)  27 NOV 2018 21:00
+This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6350)  (format=lualatex 2018.11.21)  18 JUN 2019 21:15
  restricted system commands enabled.
 **experience.tex
 (./experience.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.999 seconds
+luaotfload | main : initialization completed in 0.572 seconds
 Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
 ! Undefined control sequence.
 l.5 \cvsection
@@ -90,8 +90,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 {T
-     hesis} % Job title
+l.16 {B
+     ig Data Software Consultant} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -110,7 +110,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 16--22
-[]Thesis
+[]Big
  []
 
 
@@ -121,7 +121,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.22 \item {
-          This company offers a reactive rendering system (virtual rendering...
+          Integrating the NGDATA Customer Data platform in the customer envi...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -133,6 +133,170 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.23 \item {
+          Assisting customers with new use cases / configurations / investig...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \item {
+          Second line support for everything in the Hadoop stack that is use...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{cvitems}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \end{cvitems}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.30 \cventry
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 {S
+     martVideo Backend Expert} % Job title
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment cvitems undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \begin{cvitems}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 31--37
+[]SmartVideo
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \item {
+          Responsible for the system of the SmartVideo product (full stack):}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \item {
+          For the systems above this includes:}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{cvitems}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \end{cvitems}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.57 \cventry
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 {T
+     hesis} % Job title
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment cvitems undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \begin{cvitems}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 58--64
+[]Thesis
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \item {
+          This company offers a reactive rendering system (virtual rendering...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \item {
           Thesis subject is covered by an NDA.}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -144,14 +308,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \end{cvitems}
+l.66 \end{cvitems}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.29 \cventry
+l.71 \cventry
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -166,7 +330,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 {I
+l.72 {I
      nternship} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -178,14 +342,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \begin{cvitems}
+l.77 \begin{cvitems}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 30--36
+Overfull \hbox (20.0pt too wide) in paragraph at lines 72--78
 []Internship
  []
 
@@ -196,7 +360,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \item {
+l.78 \item {
           Created a unified log overview for easy analysis of events using t...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -208,7 +372,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \item {
+l.79 \item {
           Personal project created autonomously.}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -220,14 +384,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \end{cvitems}
+l.80 \end{cvitems}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.43 \cventry
+l.85 \cventry
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -242,7 +406,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 {S
+l.86 {S
      tudent Job} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -254,14 +418,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \begin{cvitems}
+l.91 \begin{cvitems}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--50
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--92
 []Student
  []
 
@@ -272,7 +436,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.50 \item {
+l.92 \item {
           Production line worker.}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -284,71 +448,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 \end{cvitems}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.56 \cventry
-           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 {B
-     ig Data Software Consultant} % Job title
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Environment cvitems undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 \begin{cvitems}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 57--63
-[]Big
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \item {
-          Production line worker.}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{document} ended by \end{cvitems}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 \end{cvitems}
+l.93 \end{cvitems}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -361,8 +461,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \end{cventries}
-                  
+l.100 \end{cventries}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -376,12 +476,12 @@ or  <return>  to continue without it.
 
 
 Here is how much of LuaTeX's memory you used:
- 12 strings out of 494465
- 100000,154059 words of node,token memory allocated 5132 words of node memory still in use:
-   32 hlist, 11 local_par, 1 dir, 161 glue, 27 penalty, 513 glyph, 62 attribute,
- 35 glue_spec, 62 attribute_list nodes
-   avail lists: 1:1,2:2,3:1,4:16,5:3,7:6,10:15
- 4265 multiletter control sequences out of 65536+200000
+ 14 strings out of 494465
+ 100000,154059 words of node,token memory allocated 12470 words of node memory still in use:
+   87 hlist, 26 local_par, 1 dir, 422 glue, 73 penalty, 1253 glyph, 149 attribut
+e, 35 glue_spec, 149 attribute_list nodes
+   avail lists: 2:2,3:1,4:17,5:12,7:6,10:16
+ 4267 multiletter control sequences out of 65536+200000
  14 fonts using 418323 bytes
- 7i,1n,7p,121b,44s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 7i,1n,7p,121b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
