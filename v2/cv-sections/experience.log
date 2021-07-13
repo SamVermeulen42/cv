@@ -1,40 +1,50 @@
-This is LuaTeX, Version 1.0.4 (MiKTeX 2.9.6350)  (format=lualatex 2018.11.21)  18 JUN 2019 21:15
+This is LuaHBTeX, Version 1.14.0 (MiKTeX 21.6) (format=lualatex 2021.7.13)  13 JUL 2021 21:46
  restricted system commands enabled.
 **experience.tex
 (./experience.tex
-LaTeX2e <2017-04-15>
-Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
-Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
-llection.(using cache: C:/Users/Sam/AppData/Local/MiKTeX/2.9/luatex-cache/generi
-c)
-luaotfload | conf : Root cache directory is C:/Users/Sam/AppData/Local/MiKTeX/2.
-9/luatex-cache/generic/names.
-luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
--resolved path “D:/Program Files (x86)/MiKTeX 2.9/tex/luatex/luaotfload/fontlo
-ader-2017-02-11.lua”.
-Lua-only attribute luaotfload@state = 1
-Lua-only attribute luaotfload@noligature = 2
-Lua-only attribute luaotfload@syllabe = 3
-luaotfload | init : Context OpenType loader version “3.027”
+LaTeX2e <2021-06-01>
+Lua module: luaotfload 2021-05-21 3.18 Lua based OpenType font support
+Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "C:/Users/Sam/AppData/Local/MiKTeX/l
+uatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2021-05-20.lua" from kpse-res
+olved path "D:/Users/Sam/AppData/Local/Programs/MiKTeX/tex/luatex/luaotfload/fon
+tloader-2021-05-20.lua".
+Lua-only attribute luaotfload@noligature = 1
+Lua-only attribute luaotfload@syllabe = 2
+luaotfload | init : Context OpenType loader version 3.116
 Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
 Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' at position 1 in `define_font'.
-Lua-only attribute luaotfload_color_attribute = 4
-luaotfload | conf : Root cache directory is C:/Users/Sam/AppData/Local/MiKTeX/2.
-9/luatex-cache/generic/names.
+Lua-only attribute luaotfload_color_attribute = 3
+luaotfload | conf : Root cache directory is "C:/Users/Sam/AppData/Local/MiKTeX/l
+uatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 4
 Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
 font'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
 _font'.
 Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
 t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
 '.
-Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
-.
-luaotfload | main : initialization completed in 0.572 seconds
-Babel <3.12> and hyphenation patterns for 1 language(s) loaded.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2021-06-01>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
 ! Undefined control sequence.
 l.5 \cvsection
             {Experience}
@@ -90,8 +100,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 {B
-     ig Data Software Consultant} % Job title
+l.16 {S
+     oftware engineer} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -110,7 +120,7 @@ or  <return>  to continue without it.
 
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 16--22
-[]Big
+[]Software
  []
 
 
@@ -121,7 +131,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.22 \item {
-          Integrating the NGDATA Customer Data platform in the customer envi...
+          Main backend developer for Yanomaly product (industrial analytics)}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -133,7 +143,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.23 \item {
-          Assisting customers with new use cases / configurations / investig...
+          Technical support}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -145,7 +155,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.24 \item {
-          Second line support for everything in the Hadoop stack that is use...
+          Big impact on redesigned version of the product}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -163,7 +173,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.30 \cventry
+l.31 \cventry
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -178,8 +188,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 {S
-     martVideo Backend Expert} % Job title
+l.32 {B
+     ig Data Software Consultant} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -190,15 +200,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 \begin{cvitems}
+l.37 \begin{cvitems}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 31--37
-[]SmartVideo
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--38
+[]Big
  []
 
 
@@ -208,8 +218,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 \item {
-          Responsible for the system of the SmartVideo product (full stack):}
+l.38 \item {
+          Integrating the NGDATA Customer Data platform in the customer envi...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -220,8 +230,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 \item {
-          For the systems above this includes:}
+l.39 \item {
+          Assisting customers with new use cases / configurations / investig...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 \item {
+          Second line support for everything in the Hadoop stack that is use...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 \item {
+          Role initially filled as a consultant from Exellys, later onboarded}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -232,14 +266,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 \end{cvitems}
+l.42 \end{cvitems}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.57 \cventry
+l.47 \cventry
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -254,7 +288,71 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 {T
+l.48 {F
+     ull Stack developer} % Job title
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Environment cvitems undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 \begin{cvitems}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 48--54
+[]Full
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \item {
+          Responsible for SmartVideo product and projects (personalised vide...
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{cvitems}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \end{cvitems}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.64 \cventry
+           
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 {T
      hesis} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -266,14 +364,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.63 \begin{cvitems}
+l.70 \begin{cvitems}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 58--64
+Overfull \hbox (20.0pt too wide) in paragraph at lines 65--71
 []Thesis
  []
 
@@ -284,7 +382,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \item {
+l.71 \item {
           This company offers a reactive rendering system (virtual rendering...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -296,8 +394,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 \item {
-          Thesis subject is covered by an NDA.}
+l.72 \item {
+          Thesis subject is covered by an NDA}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -308,14 +406,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.66 \end{cvitems}
+l.73 \end{cvitems}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.71 \cventry
+l.78 \cventry
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -330,7 +428,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.72 {I
+l.79 {I
      nternship} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -342,14 +440,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \begin{cvitems}
+l.84 \begin{cvitems}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 72--78
+Overfull \hbox (20.0pt too wide) in paragraph at lines 79--85
 []Internship
  []
 
@@ -360,7 +458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \item {
+l.85 \item {
           Created a unified log overview for easy analysis of events using t...
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -372,8 +470,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \item {
-          Personal project created autonomously.}
+l.86 \item {
+          Personal project created autonomously}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -384,14 +482,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \end{cvitems}
+l.87 \end{cvitems}
                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.85 \cventry
+l.92 \cventry
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -406,7 +504,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 {S
+l.93 {S
      tudent Job} % Job title
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -418,14 +516,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.91 \begin{cvitems}
+l.98 \begin{cvitems}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 86--92
+Overfull \hbox (20.0pt too wide) in paragraph at lines 93--99
 []Student
  []
 
@@ -436,8 +534,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \item {
-          Production line worker.}
+l.99 \item {
+          Production line worker}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -448,8 +546,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 \end{cvitems}
-                
+l.100 \end{cvitems}
+                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -461,7 +559,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \end{cventries}
+l.107 \end{cventries}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -476,12 +574,12 @@ or  <return>  to continue without it.
 
 
 Here is how much of LuaTeX's memory you used:
- 14 strings out of 494465
- 100000,154059 words of node,token memory allocated 12470 words of node memory still in use:
-   87 hlist, 26 local_par, 1 dir, 422 glue, 73 penalty, 1253 glyph, 149 attribut
-e, 35 glue_spec, 149 attribute_list nodes
-   avail lists: 2:2,3:1,4:17,5:12,7:6,10:16
- 4267 multiletter control sequences out of 65536+200000
- 14 fonts using 418323 bytes
- 7i,1n,7p,121b,95s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 23 strings out of 478081
+ 100000,383344 words of node,token memory allocated 12626 words of node memory still in use:
+   72 hlist, 23 local_par, 1 dir, 390 glue, 8 kern, 62 penalty, 1142 glyph, 156 
+attribute, 39 glue_spec, 156 attribute_list nodes
+   avail lists: 1:1,2:2,3:1,4:16,5:8,7:6,10:15
+ 20558 multiletter control sequences out of 65536+600000
+ 22 fonts using 2516239 bytes
+ 14i,1n,12p,140b,90s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
